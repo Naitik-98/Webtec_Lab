@@ -5,6 +5,9 @@ body {
     padding: 20px;
 }
 
+.required {
+    color:red;
+}
 .container {
     background-color: #f7f7f7;
     width: 750px;
@@ -26,7 +29,7 @@ body {
 }
 
 h3 {
-    color: #cc0000;
+    color: red;
     border-bottom: 1px solid #ddd;
     padding-bottom: 4px;
     margin-top: 25px;
@@ -42,7 +45,7 @@ h3 {
 label {
     display: block;
     font-size: 14px;
-    color: #000;
+    color: black;
 }
 
 input[type="text"],
