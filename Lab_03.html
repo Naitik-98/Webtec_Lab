@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="Lab_03.css">
+</head>
+<body>
+
+    <div class="container">
+        <p class="note"><b>*</b> Denotes Required Information</p>
+        <p class="steps">&gt; 1 Donation &nbsp; &gt; 2 Confirmation &nbsp; &gt; Thank You!</p>
+
+        <form>
+            <!-- Donor Information -->
+            <h3>Donor Information</h3>
+            <div class="form-section">
+                <label>First Name* <input type="text" required></label>
+                <label>Last Name* <input type="text" required></label>
+                <label>Company <input type="text"></label>
+                <label>Address 1* <input type="text" required></label>
+                <label>Address 2 <input type="text"></label>
+                <label>City* <input type="text" required></label>
+
+                <label>State*
+                    <select required>
+                        <option>Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Chattogram</option>
+                        <option>Khulna</option>
+                    </select>
+                </label>
+
+                <label>Zip Code* <input type="text" required></label>
+
+                <label>Country*
+                    <select required>
+                        <option>Select a Country</option>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>USA</option>
+                    </select>
+                </label>
+
+                <label>Phone <input type="tel"></label>
+                <label>Fax <input type="text"></label>
+                <label>Email* <input type="email" required></label>
+
+                <fieldset>
+                    <legend>Donation Amount*</legend>
+                    <label><input type="radio" name="amount"> None</label>
+                    <label><input type="radio" name="amount"> $50</label>
+                    <label><input type="radio" name="amount"> $75</label>
+                    <label><input type="radio" name="amount"> $100</label>
+                    <label><input type="radio" name="amount"> $250</label>
+                    <label><input type="radio" name="amount"> Other</label>
+                    <label>Other Amount $ <input type="text" size="8"></label>
+                </fieldset>
+
+                <label><input type="checkbox"> I am interested in giving on a regular basis.</label>
+                <label>Monthly Credit Card $ <input type="text" size="5"> For <input type="text" size="5"> Months</label>
+            </div>
+
+            <!-- Honorarium Section -->
+            <h3>Honorarium and Memorial Donation Information</h3>
+            <div class="form-section">
+                <label><input type="radio" name="honor"> To Honor</label>
+                <label><input type="radio" name="honor"> In Memory of</label>
+                <label>Name <input type="text"></label>
+                <label>Acknowledge Donation to <input type="text"></label>
+                <label>Address <input type="text"></label>
+                <label>City <input type="text"></label>
+                <label>State
+                    <select>
+                        <option>Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Chattogram</option>
+                    </select>
+                </label>
+                <label>Zip <input type="text"></label>
+            </div>
+
+            <!-- Additional Information -->
+            <h3>Additional Information</h3>
+            <div class="form-section">
+                <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+                <label>Name <input type="text"></label>
+                <label><input type="checkbox"> I would like my gift to remain anonymous.</label>
+                <label><input type="checkbox"> My employer offers a matching gift program.</label>
+                <label><input type="checkbox"> Please save the cost of acknowledging this gift by not mailing a thank you letter.</label>
+
+                <label>Comments<br>
+                    <textarea rows="4" placeholder="Please type any questions or feedback here..."></textarea>
+                </label>
+
+                <p><b>How may we contact you?</b></p>
+                <label><input type="checkbox"> E-mail</label>
+                <label><input type="checkbox"> Postal Mail</label>
+                <label><input type="checkbox"> Telephone</label>
+                <label><input type="checkbox"> Fax</label>
+
+                <p>I would like to receive newsletters and information about special events by:</p>
+                <label><input type="checkbox"> E-mail</label>
+                <label><input type="checkbox"> Postal Mail</label>
+
+                <label><input type="checkbox"> I would like information about volunteering with the organization.</label>
+
+                <div class="buttons">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Continue">
+                </div>
+            </div>
+        </form>
+
+        <p class="footer">Donate online with confidence. You are on a secure server.<br>
+        If you have any problems or questions, please contact support.</p>
+    </div>
+
+</body>
+</html>
+
+
