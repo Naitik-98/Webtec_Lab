@@ -23,7 +23,6 @@ echo "Sum (echo): " . ($num1 + $num2) . "<br>";
 print "Sum (print): " . ($num1 + $num2) . "<br><br>";
 
 
-echo "<h3>Variable Types and Values (var_dump)</h3>";
 var_dump($stringVar); echo "<br>";
 var_dump($intVar); echo "<br>";
 var_dump($floatVar); echo "<br>";
